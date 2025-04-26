@@ -1,0 +1,50 @@
+# PHP specific
+/vendor/
+composer.phar
+composer.lock
+*.log
+
+# Sensitive information and environment files
+.env
+.env.local
+.env.*.local
+config.php
+config.local.php
+config/credentials.php
+config/db.php
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Cache and temporary files
+/cache/
+/tmp/
+*.tmp
+*.temp
+*.cache
+
+# Logs
+/logs/
+error_log
+access_log
+
+# Bot-specific files that might contain tokens
+bot_token.txt
+telegram_config.json
+

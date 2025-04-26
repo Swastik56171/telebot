@@ -1,0 +1,68 @@
+{
+    "name": "SWASTIK CC CHECKER",
+    "description": "A Telegram CC Checker Bot with hella lotta features.",
+    "keywords": [
+        "Telegram",
+        "Bot",
+        "Modular"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "7691226235:AAG3QDrKTXvgr1VSrDrfseffm4iHJqMKx6Q",
+            "value": "",
+            "required": true
+        },
+        "ADMIN_ID": {
+            "description": "@SuperCarderOP",
+            "value": "",
+            "required": true
+        },
+        "LOGS_DUMP_ID": {
+            "description": "8187971061",
+            "value": "",
+            "required": true
+        },
+        "DB_HOST": {
+            "description": "ql12.freesqldatabase.com",
+            "value": "",
+            "required": true
+        },
+        "DB_USERNAME": {
+            "description": "sql12775082",
+            "value": "",
+            "required": true
+        },
+        "DB_PASSWORD": {
+            "description": "mQGSBysT3r",
+            "value": "",
+            "required": true
+        },
+        "DB_NAME": {
+            "description": "sql12775082",
+            "value": "",
+            "required": true
+        },
+        "ANTISPAM_TIMER": {
+            "description": "15",
+            "value":"20",
+            "required": true
+        },
+        "SK_KEYS": {
+            "description": "F6C4E5A71846CF824E774B6EF5517 ,",
+            "value": "",
+            "required": false
+        },
+        "TIMEZONE": {
+            "description": "GMT+5:30",
+            "value": "Asia/Kolkata",
+            "required": false
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "image": "heroku/php"
+}
