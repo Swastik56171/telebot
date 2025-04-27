@@ -1,6 +1,5 @@
 {
-  "require": {},
-  "scripts": {
-    "start": "php -S 0.0.0.0:$PORT index.php"
-  }
+  "name": "telegram-php-bot",
+  "description": "Telegram bot using PHP",
+  "require": {}
 }
